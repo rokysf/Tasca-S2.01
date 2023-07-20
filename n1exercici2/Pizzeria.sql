@@ -1,4 +1,4 @@
-idBeguda-- MySQL Workbench Forward Engineering
+-- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
@@ -161,7 +161,6 @@ CREATE TABLE IF NOT EXISTS `Pizzeria`.`Comandes` (
   `idClient` INT NOT NULL,
   ` Data/Hora comanda` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `Repartiment` ENUM('Domicili', 'Botiga') NOT NULL,
-  `Comandescol` VARCHAR(45) NULL,
   `Quantitat Pizzes` INT NULL,
   `Quantitat Begudes` INT NULL,
   `Quantitat Hamburgueses` INT NULL,
